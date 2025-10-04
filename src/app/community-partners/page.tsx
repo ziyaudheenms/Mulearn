@@ -27,7 +27,7 @@ const page = () => {
 
             animate={{ opacity: 1, }}
 
-            transition={{ delay: 0.3, duration: 0.6, ease: "easeOut" }}
+            transition={{ delay: 0.3, duration: 0.8, ease: "easeOut" }}
 
             viewport={{ once: true, amount: 0.5 }}
  className="text-center md:text-left md:w-1/3 mx-4 md:mx-0">
