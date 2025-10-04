@@ -1,4 +1,3 @@
-// @ts-ignore
 "use client";
 import { communityPartners } from "../../data/data";
 import CommunityCard from "./CommunityCard/CommunityCard";
