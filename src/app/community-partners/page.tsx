@@ -21,7 +21,16 @@ const page = () => {
       <HomeNav />
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col-reverse md:flex-row  items-center justify-around w-full">
-          <div className="text-center md:text-left md:w-1/3 mx-4 md:mx-0">
+          <motion.div
+
+            initial={{ opacity: 0,}}
+
+            animate={{ opacity: 1, }}
+
+            transition={{ delay: 0.3, duration: 0.6, ease: "easeOut" }}
+
+            viewport={{ once: true, amount: 0.5 }}
+ className="text-center md:text-left md:w-1/3 mx-4 md:mx-0">
             <p className="font-sans text-5xl font-semibold text-[#303030] md:text-7xl md:leading-tight">
               <span className="font-semibold text-[#5570f1]">µLearn Community</span> Partners
             </p>
@@ -30,7 +39,7 @@ const page = () => {
               things take place. What if multiple Communities join their hands
               together for a common aim things get much more interesting!
             </p>
-          </div>
+          </motion.div>
 
           <div className="w-full flex justify-center md:w-auto md:flex md:items-center md:justify-center">
             <Image
