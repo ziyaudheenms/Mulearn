@@ -31,10 +31,10 @@ const page = () => {
             viewport={{ once: true, amount: 0.5 }}
  className="text-center md:text-left md:w-1/3 mx-4 md:mx-0">
             <p className="font-sans text-5xl font-semibold text-[#303030] md:text-7xl inline-block xl:inline-block lg:inline-block md:hidden md:w-[50%]  md:leading-tight">
-              <span className="font-semibold text-[#2E85FE]">µLearn Community</span> Partners
+              <span className="font-semibold text-[#2E85FE]" style={{ color: 'var(--trusty-blue)' }}>µLearn Community</span> Partners
             </p>
             <p className="font-sans text-5xl font-semibold text-[#303030] md:text-7xl hidden md:inline-block xl:hidden lg:hidden md:leading-tight">
-              <span className="font-semibold text-[#2E85FE]">µLearn Comm<br></br>unity</span> Partner<br></br>s
+              <span className="font-semibold text-[#2E85FE]" style={{ color: 'var(--trusty-blue)' }}>µLearn Comm<br></br>unity</span> Partner<br></br>s
             </p>
             <p className="mt-6 md:mt-8 text-lg md:text-2xl w-full  md:mx-0">
               When a group of like-minded people come together interesting
@@ -59,9 +59,9 @@ const page = () => {
           <div className="lg:w-2/3 flex flex-col text-center md:text-left mx-4 md:mx-0 
               pt-20 lg:pt-32 lg:pl-16" >
             <p className="text-3xl md:text-5xl lg:ml-10 xl:ml-0  font-semibold font-sans">
-              <span className="text-[#5570f1]">Community</span> Partners
+              <span  style={{ color: 'var(--trusty-blue)' }}>Community</span> Partners
             </p>
-            <p className="mt-6 md:mt-8 lg:ml-10 xl:ml-0 text-lg md:text-2xl md:mx-0 font-[Poppins] xl:w-[44rem]" style={{marginTop:'0px'}}>
+            <p className="mt-6 md:mt-8 lg:ml-10 xl:ml-0 text-lg md:text-2xl md:mx-0  xl:w-[44rem]" style={{marginTop:'0px'}}>
               µLearn has partnered with multiple communities to provide the
               peers the best resources and events to learn and up-skill
               themselves.
