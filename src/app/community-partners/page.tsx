@@ -18,7 +18,6 @@ type Partner = {
 const page = () => {
   return (
     <>
-      <HomeNav />
       <div className="flex flex-col items-center justify-center md:ml-3 md:mr-3 xl:ml-0 xl:mr-0 lg:ml-0 lg:mr-0 ">
         <div className="flex flex-col md:flex-row  items-center justify-around w-full " >
           <motion.div
@@ -32,12 +31,12 @@ const page = () => {
             viewport={{ once: true, amount: 0.5 }}
  className="text-center md:text-left md:w-1/3 mx-4 md:mx-0">
             <p className="font-sans text-5xl font-semibold text-[#303030] md:text-7xl inline-block xl:inline-block lg:inline-block md:hidden md:w-[50%]  md:leading-tight">
-              <span className="font-semibold text-[#5570f1]">µLearn Community</span> Partners
+              <span className="font-semibold text-[#2E85FE]">µLearn Community</span> Partners
             </p>
             <p className="font-sans text-5xl font-semibold text-[#303030] md:text-7xl hidden md:inline-block xl:hidden lg:hidden md:leading-tight">
-              <span className="font-semibold text-[#5570f1]">µLearn Comm<br></br>unity</span> Partner<br></br>s
+              <span className="font-semibold text-[#2E85FE]">µLearn Comm<br></br>unity</span> Partner<br></br>s
             </p>
-            <p className="mt-6 md:mt-8 text-lg md:text-2xl w-full font-[Poppins]  md:mx-0">
+            <p className="mt-6 md:mt-8 text-lg md:text-2xl w-full  md:mx-0">
               When a group of like-minded people come together interesting
               things take place. What if multiple Communities join their hands
               together for a common aim things get much more interesting!
